@@ -1,16 +1,47 @@
 body {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: colorChange;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+  background-color: #81d4fa;
+  text-align: left;
+  margin-right: 3px;
+  margin-left: 3px;
 }
-@keyframes colorChange {
-  0% {
-    background-color: #81D4FA;
-  }
-  80% {
-    background-color: #E1F5FE;
-  }
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border: 3px solid green;
+  width: 500px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 300px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+b{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+li {
+  list-style-position: inside;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-inline-start: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  width: 700px;
+}
+.graphics {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  width: 300px;
+  height: 500px;
+  text-align: right;
 }
