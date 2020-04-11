@@ -1,7 +1,12 @@
 body {
-  animation: 10000ms ease-in-out infinite color-change;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
-@keyframes color-change {
+@keyframes colorChange {
   0% {
     background-color: #81D4FA;
   }
