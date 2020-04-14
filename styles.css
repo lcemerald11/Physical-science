@@ -22,6 +22,8 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 15px;
+  width: 700px;
+  margin-left: 30px;
 }
 b{
   font-family: 'Roboto', sans-serif;
@@ -52,4 +54,26 @@ h3 {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-right: 300px;
+}
+#lawsGraph {
+  position: absolute;
+  top: 800px;
+  right: 100px;
+  width: 400px;
+  height: 200px;
+  }
+#quote {
+  position: absolute;
+  top: 1900px;
+  right: 100px;
+  width: 400px;
+  height: 200px;
+  border: 3px solid coral;
+}
+#falling {
+  position: absolute;
+  top: 1400px;
+  right: 100px;
+  width: 400px;
+  height: 200px;
 }
